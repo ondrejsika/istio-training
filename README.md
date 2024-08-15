@@ -38,6 +38,8 @@ kubectl apply -f https://raw.githubusercontent.com/istio/istio/master/samples/ad
 kubectl apply -f https://raw.githubusercontent.com/istio/istio/master/samples/addons/kiali.yaml
 ```
 
+Install Kiali using Helm: https://kiali.io/docs/installation/installation-guide/install-with-helm/
+
 ### Loki
 
 ```
