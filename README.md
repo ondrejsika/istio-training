@@ -83,3 +83,4 @@ helm upgrade --install \
 See:
   - https://counter.k8s-istio.sikademo.com
   - https://kiali.k8s-istio.sikademo.com/kiali/console/graph/namespaces
+  - https://grafana.k8s-istio.sikademo.com/dashboards
