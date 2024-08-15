@@ -63,3 +63,17 @@ kubectl apply -f examples/kiali_ingress.yml
 ```
 kubectl label namespace default istio-injection=enabled
 ```
+
+## Install Example Application
+
+```
+helm upgrade --install \
+  counter \
+  --repo https://helm.sikademo.com/ \
+  counter \
+  --set host=counter.k8s-istio.sikademo.com
+```
+
+See:
+  - https://counter.k8s-istio.sikademo.com
+  - https://kiali.k8s-istio.sikademo.com/kiali/console/graph/namespaces
