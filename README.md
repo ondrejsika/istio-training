@@ -51,3 +51,9 @@ kubectl apply -f https://raw.githubusercontent.com/istio/istio/master/samples/ad
 ```
 kubectl apply -f https://raw.githubusercontent.com/istio/istio/master/samples/addons/prometheus.yaml
 ```
+
+## Install Kiali Ingress
+
+```
+kubectl apply -f examples/kiali_ingress.yml
+```
