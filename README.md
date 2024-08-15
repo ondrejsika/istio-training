@@ -57,3 +57,9 @@ kubectl apply -f https://raw.githubusercontent.com/istio/istio/master/samples/ad
 ```
 kubectl apply -f examples/kiali_ingress.yml
 ```
+
+## Enable Sidecar Injection
+
+```
+kubectl label namespace default istio-injection=enabled
+```
